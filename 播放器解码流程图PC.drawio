@@ -1,38 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T03:11:10.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="zQPGls_qp2Ikc9yeHZsz" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T03:20:46.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="Ej5dvMbyLCnubU7sxw-j" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1375" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="fRcir5-LAS78HHRanac3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="fRcir5-LAS78HHRanac3-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="多媒体文件(Container)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="40" width="120" height="40" as="geometry" />
+        <mxCell id="fRcir5-LAS78HHRanac3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-72" target="fRcir5-LAS78HHRanac3-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="80" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-5" target="fRcir5-LAS78HHRanac3-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-5" value="解复用(Demux)&lt;br&gt;avformat_open_input()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="155" y="120" width="130" height="40" as="geometry" />
+          <mxGeometry x="175" y="160" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-6" target="fRcir5-LAS78HHRanac3-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-6" value="音视频流(AVStream)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="200" width="160" height="40" as="geometry" />
+          <mxGeometry x="160" y="240" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-9" target="fRcir5-LAS78HHRanac3-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-9" value="读取流&lt;br&gt;av_read_frame()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="180" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-11" target="fRcir5-LAS78HHRanac3-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-11" value="音视频包(AVPacket)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="360" width="160" height="40" as="geometry" />
+          <mxGeometry x="160" y="400" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-13" target="fRcir5-LAS78HHRanac3-15">
           <mxGeometry relative="1" as="geometry" />
@@ -41,34 +40,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-13" value="判断是音频包&lt;br&gt;还是视频包&lt;br&gt;stream_index" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="440" width="160" height="80" as="geometry" />
+          <mxGeometry x="160" y="480" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-15" target="fRcir5-LAS78HHRanac3-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-15" value="音频包(APacket)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="560" width="120" height="40" as="geometry" />
+          <mxGeometry x="60" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-16" target="fRcir5-LAS78HHRanac3-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-16" value="视频包(VPacket)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="560" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-20" target="fRcir5-LAS78HHRanac3-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-20" value="解码&lt;br&gt;avcodec_decode_audio4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry y="760" width="160" height="40" as="geometry" />
+          <mxGeometry x="40" y="800" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fRcir5-LAS78HHRanac3-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-22" target="fRcir5-LAS78HHRanac3-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-22" value="音频帧(AFrame)&lt;br&gt;【放入mAudioFrames】" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry y="840" width="160" height="40" as="geometry" />
+          <mxGeometry x="40" y="880" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-24" value="audio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="115" y="505" width="50" height="30" as="geometry" />
+          <mxGeometry x="120" y="550" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-25" value="video" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="505" width="50" height="30" as="geometry" />
+          <mxGeometry x="290" y="550" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-26" target="fRcir5-LAS78HHRanac3-30">
           <mxGeometry relative="1" as="geometry" />
@@ -77,52 +79,65 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-26" value="判断是硬解&lt;br&gt;还是软解" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="640" width="100" height="80" as="geometry" />
+          <mxGeometry x="310" y="680" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-29" target="fRcir5-LAS78HHRanac3-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-29" value="软解码&lt;br&gt;avcodec_decode_video2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="760" width="140" height="40" as="geometry" />
+          <mxGeometry x="210" y="800" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-30" target="fRcir5-LAS78HHRanac3-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-30" value="不解码，直接将此包存下&lt;br&gt;使用时再解码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="370" y="760" width="140" height="40" as="geometry" />
+          <mxGeometry x="370" y="800" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-33" value="soft" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="705" width="40" height="30" as="geometry" />
+          <mxGeometry x="240" y="740" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fRcir5-LAS78HHRanac3-34" value="hard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="705" width="50" height="30" as="geometry" />
+        <mxCell id="fRcir5-LAS78HHRanac3-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-35" target="fRcir5-LAS78HHRanac3-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="950" />
+              <mxPoint x="240" y="950" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-35" value="视频帧(VFrame)&lt;br&gt;【放入mVideoFrames】" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="200" y="840" width="160" height="40" as="geometry" />
+          <mxGeometry x="200" y="880" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-37" target="fRcir5-LAS78HHRanac3-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-37" value="视频包(VPacket)&lt;br&gt;【放入mVideoFrames】" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="840" width="160" height="40" as="geometry" />
+          <mxGeometry x="360" y="880" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fRcir5-LAS78HHRanac3-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-41" target="fRcir5-LAS78HHRanac3-43">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fRcir5-LAS78HHRanac3-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-41" target="fRcir5-LAS78HHRanac3-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="980" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fRcir5-LAS78HHRanac3-41" value="获取视频帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="920" width="120" height="40" as="geometry" />
+          <mxGeometry x="380" y="960" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fRcir5-LAS78HHRanac3-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-43" target="fRcir5-LAS78HHRanac3-63">
+        <mxCell id="fRcir5-LAS78HHRanac3-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fRcir5-LAS78HHRanac3-69" target="fRcir5-LAS78HHRanac3-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fRcir5-LAS78HHRanac3-43" value="硬解码&lt;br&gt;avcodec_decode_video2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="1000" width="160" height="40" as="geometry" />
+        <mxCell id="fRcir5-LAS78HHRanac3-69" value="多媒体文件(Container)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fRcir5-LAS78HHRanac3-63" value="视频帧(VFrame)&lt;br&gt;【放入mVideoFrames】" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="1080" width="160" height="40" as="geometry" />
+        <mxCell id="fRcir5-LAS78HHRanac3-70" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fRcir5-LAS78HHRanac3-65" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="115" y="1120" width="120" height="40" as="geometry" />
+        <mxCell id="fRcir5-LAS78HHRanac3-72" value="多媒体文件(Container)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fRcir5-LAS78HHRanac3-74" value="hard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="435" y="735" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
